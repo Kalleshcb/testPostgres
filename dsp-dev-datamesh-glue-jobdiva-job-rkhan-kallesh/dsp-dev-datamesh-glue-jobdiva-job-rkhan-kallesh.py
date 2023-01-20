@@ -4,7 +4,6 @@ import json
 import datetime
 import math
 import numpy as np
-import fibo
 
 import pytz
 from pytz import timezone
