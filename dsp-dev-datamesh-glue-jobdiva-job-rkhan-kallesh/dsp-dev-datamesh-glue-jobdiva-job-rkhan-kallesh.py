@@ -147,6 +147,9 @@ def source_a_job_diva_reference_data(p_job_diva_end_point, p_job_diva_credential
     l_data_rows = []
 
     l_candidates_list = json.loads(response.text)["data"]
+    l_candidates_list = json.loads(response.text)["data"]
+    l_candidates_list = json.loads(response.text)["data"]
+    l_candidates_list = json.loads(response.text)["data"]
 
     if len(l_candidates_list) <= 0:
         return l_column_names, l_data_rows
