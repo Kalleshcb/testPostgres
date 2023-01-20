@@ -1,2 +1,0 @@
-# testPostgres
-test
